@@ -68,6 +68,7 @@ To make the application more available, I would add a third availability zone to
 
 # Resources:
 Please find my system design for this deployment here:
+https://github.com/nalDaniels/Deployment5.1/blob/main/SystemDesign.md
 
 
 
