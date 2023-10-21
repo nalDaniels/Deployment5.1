@@ -38,7 +38,7 @@ fi
 '''
 }
 }
-stage ('Clean') {
+stage ('Clean2') {
 agent {label 'awsDeploy2'}
 steps {
 sh '''#!/bin/bash
@@ -70,7 +70,7 @@ python -m gunicorn app:app -b 0.0.0.0 -D && echo "Done"
 }
 }
 }
-stage ('Deploy') {
+stage ('Deploy2') {
 agent {label 'awsDeploy2'}
 steps {
 keepRunning {
