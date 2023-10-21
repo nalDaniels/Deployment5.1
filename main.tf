@@ -125,7 +125,7 @@ resource "aws_instance" "application1" {
   ami                    = var.ami
   instance_type          = var.instance_type
   vpc_security_group_ids = [aws_security_group.jenkins_sg.id]
-  subnet_id = aws_subnet.subnet2.id
+  subnet_id = aws_subnet.subnet1.id
   key_name = var.key_name
   associate_public_ip_address = true
 
